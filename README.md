@@ -3,34 +3,8 @@
 A travel booking platform, built with Spring Boot backend and Next.js frontend.
 
 ## Project Structure
-Planner/                            
-├── backend/                        #Springboot (maven) backend
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/wanderlust/
-│   │   │   │   ├── config/          # App, DB, JWT, Security Config
-│   │   │   │   ├── controller/      # REST Controllers (Auth, Destinations, Flights, etc.)
-│   │   │   │   ├── dto/             # Data Transfer Objects grouped by domain
-│   │   │   │   ├── model/           # Entity Models
-│   │   │   │   ├── repository/      # Spring Data Repositories
-│   │   │   │   ├── security/        # JWT & UserDetails Services
-│   │   │   │   ├── service/         # Business Logic Services
-│   │   │   │   └── WanderlustBackendApplication.java
-│   │   └── resources/               # application.properties, templates, static assets
-│   ├── target/                      # Compiled classes & build output
-│   └── pom.xml                      # Maven config
 
-├── frontend/                        #Next js frontend
-│   ├── app/                         # Next.js app directory (routes, layouts)
-│   ├── components/                 # UI & shared components (with shadcn/ui)
-│   ├── lib/                         # API logic, auth context, utils
-│   ├── public/                      # Static images (destinations, profiles, assets)
-│   ├── styles/                      # Tailwind/global CSS
-│   ├── hooks/                       # Custom React hooks
-│   ├── next.config.mjs             # Next.js config
-│   └── tailwind.config.ts          # Tailwind config
-
-└── README.md
+![FolderStruc](screenshots/foldertree.png)
 
 
 ## Setup Instructions
